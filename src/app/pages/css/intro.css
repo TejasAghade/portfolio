@@ -1,0 +1,42 @@
+.intro-container {
+    display: flex;
+    height: 70vh;    
+    align-items: center;
+    border: 1px solid #36b973;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+.intro-container .left {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 7rem;
+}
+
+.intro-container .left h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.intro-container .left h2 {
+    font-size: 3rem;
+}
+
+.intro-container .right img {
+    mix-blend-mode: luminosity;
+    border: 1px;
+    margin-top: 5rem;
+    margin-left: 0rem;
+    width: 24rem;
+    max-width: 100%;
+    height: auto;
+    -webkit-filter: drop-shadow(1px 1px 0 rgb(252, 70, 70)) drop-shadow(-1px -1px 0 rgb(46, 255, 126));
+    filter: drop-shadow(1px 1px 0 rgb(0, 0, 0)) drop-shadow(-1px -1px 0 black);
+    transition: 1s ease-in-out;
+
+}
+
+.intro-container .right img:hover{
+    transition: 1s ease-in-out;
+    mix-blend-mode: normal;
+}

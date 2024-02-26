@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem; 
+    position: sticky;
+}
+
+.navbar .icon h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.navbar .navlinks ul{
+    list-style: none;   
+    display: flex;
+    width: 24rem;
+    justify-content: space-between;
+}
+
+.navbar .navlinks ul li{
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    /* padding: 0 1rem; */
+    transition: 0.2s ease-in-out;
+}
+
+.navbar .navlinks ul li:hover{
+    transition: 0.2s ease-in-out;
+    border-bottom: 2px solid rgb(79, 205, 152);
+}
+
+.navbar .button{
+    background-color: #36b973;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 2px;
+    /* text-transform: uppercase; */
+    transition: 1s;
+}
+
+.navbar .button:hover{
+    letter-spacing: 2px;
+    transition: 1s;
+}
