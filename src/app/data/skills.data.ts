@@ -11,6 +11,9 @@ import postg from '../../assets/icons/postgres.png';
 import htmlcss from '../../assets/icons/html.png';
 import nextjs from '../../assets/icons/next.png';
 
+import docker from '../../assets/icons/docker2.png';
+import git from '../../assets/icons/git.png';
+
 
 export const skills = [
     
@@ -81,6 +84,20 @@ export const skills = [
             {
                 icon: java,
                 name: "Java"
+            },
+        ]
+    },
+
+    {
+        skillCategory : "DevOps",
+        skills :[
+            {
+                icon: docker,
+                name: "Docker"
+            },
+            {
+                icon: git,
+                name: "Git"
             },
         ]
     },
