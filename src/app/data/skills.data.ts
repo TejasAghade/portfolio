@@ -15,7 +15,7 @@ import docker from '../../assets/icons/docker2.png';
 import git from '../../assets/icons/git.png';
 
 
-export const skills = [
+const skills = [
     
     {
         skillCategory : "Front End",
@@ -103,3 +103,5 @@ export const skills = [
     },
     
 ]
+
+export default skills;

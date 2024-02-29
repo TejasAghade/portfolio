@@ -1,6 +1,6 @@
 import './css/skills.css';
 
-import { skills } from '../data/skills.data'
+import skills from '../data/skills.data'
 
 export default function Skills() {
     return (
