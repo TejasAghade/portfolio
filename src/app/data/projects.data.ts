@@ -1,10 +1,13 @@
+import comnity from '../../assets/proj/social.png';
+import notFound from '../../assets/svg/404-yellow.png';
+
 const projects = [
     {
         name : "Comnity",
         codeUrl : "https://github.com/TejasAghade/Comnity-social-media-application",
         desc : "Social media application",
         demoUrl : "",
-        imgUrl : "src/assets/proj/social.png",
+        imgUrl : comnity,
         skills : ["Flutter", "Firebase"]
     },
     {
@@ -12,7 +15,7 @@ const projects = [
         codeUrl : "https://github.com/TejasAghade/upcoming-movies",
         desc:"Movie Details & Trailer Player",
         demoUrl : "",
-        imgUrl : "src/assets/svg/404-yellow.png",
+        imgUrl : notFound,
         skills : ["Flutter", "Firebase"]
     },
     {
@@ -20,7 +23,7 @@ const projects = [
         codeUrl : "https://github.com/TejasAghade/hirexie-backend",
         desc:"Job search platform",
         demoUrl : "",
-        imgUrl : "src/assets/svg/404-yellow.png",
+        imgUrl : notFound,
         skills : ["NodeJs", "Express", "MongoDB", "React"]
     },
     {
@@ -28,7 +31,7 @@ const projects = [
         codeUrl : "https://github.com/TejasAghade/MyOnlineMeal",
         desc:"Online food ordering website",
         demoUrl : "",
-        imgUrl : "src/assets/svg/404-yellow.png",
+        imgUrl : notFound,
         skills : ["Html Css", "Javascript", "JQuery", "MySQL", "Bootstrap", "PHP"]
     }
 ]
