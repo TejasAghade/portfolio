@@ -35,7 +35,7 @@ export const skills = [
             },
             {
                 icon: htmlcss,
-                name: "HTML & CSS"
+                name: "Html & Css"
             },
         ]
     },
@@ -53,11 +53,7 @@ export const skills = [
             {
                 icon: express,
                 name: "Express"
-            },
-            {
-                icon: java,
-                name: "Java"
-            },
+            }
         ]
     },
     
@@ -76,6 +72,16 @@ export const skills = [
                 icon: sql,
                 name: "MySQL"
             }
+        ]
+    },
+
+    {
+        skillCategory : "Core Languages",
+        skills :[
+            {
+                icon: java,
+                name: "Java"
+            },
         ]
     },
     

@@ -5,27 +5,12 @@ import { skills } from './../data/skills2.data'
 export default function Skills() {
     return (
         <>
-            <div className="skills-container">
+            <div className="skills-section" id='skills'>
                 <div className="heading" id="skills">
                     <h2>Skills</h2>
                 </div>
-                <div className="icons-container">
-                    <div className="skills-wrapper">
+                <div className="skills-container flex flex-row flex-wrap justify-center">
                         {
-                            // single skill
-                            // skills.map((skill) => {
-                            //     return (
-                            //         <div key={skill.name} className="skill">
-                            //                 <div className="skill-img">
-                            //                     <img src={skill.icon} alt="gf" />
-                            //                 </div>
-                            //                 <div className="skill-title">
-                            //                     <span>{skill.name}</span>
-                            //                 </div>
-                            //         </div>
-                            //     )
-                            // })
-
                             skills.map((sCat, index) => {
                                 return (
 
@@ -35,12 +20,12 @@ export default function Skills() {
                                             <h3>{sCat.skillCategory}</h3>
                                         </div>
 
-                                        <div className="skill-card">
+                                        <div className="skill-card flex justify-center flex-wrap">
                                             {
                                                 sCat.skills.map(skill => {
                                                     return (
-                                                        <div key={skill.name} className="skill">
-                                                            <div className="skill-img">
+                                                        <div key={skill.name} className="skill flex flex-col justify-center items-center">
+                                                            <div className="skill-img flex justify-center items-center">
                                                                 <img src={skill.icon} alt="gf" />
                                                             </div>
                                                             <div className="skill-title">
@@ -57,7 +42,6 @@ export default function Skills() {
                             })
 
                         }
-                    </div>
                 </div>
             </div>
         </>

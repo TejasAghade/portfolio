@@ -1,57 +1,42 @@
-.skills-container{
+.skills-section{
     margin-top: 6rem;   
     padding: 0 4rem;
+    height: 80vh;
 }
 
-.skills-container .heading{
+.skills-section .heading{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5rem; 
     letter-spacing: 4px;
 }
 
-.icons-container{
+.skills-container{
     margin-top: 2rem;
 }
 
-.skills-container .skills-wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    
-}
-.skills-container .skills-wrapper .cat-card{
+.skills-section .cat-card{
     border: 0.01rem solid #1c1919;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.8rem;
     border-radius: 5px;
 }
 
-.skills-container .skills-wrapper .cat-card .skill-card{
-    display: flex;
-}
-
-.skills-container .skills-wrapper .skill{
+.skills-section .skill{
     height: 7rem;
     width: 7rem;
     margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border-radius: 4px;
     background-color: rgb(39 39 39 / 41%);
 }
 
-.skills-container .skills-wrapper .skill .skill-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.skills-container .skills-wrapper .skill img{
+.skills-section .skill img{
     width: 3rem;
     height: 2rem;
     object-fit: contain;
     margin-bottom: 1rem;
+}
+
+.skills-section .skill .skill-title span{
+    font-weight: 300;
+    letter-spacing: 1px;
 }
