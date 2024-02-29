@@ -10,7 +10,7 @@ export default function Navbar() {
                 <div className="navlinks">
                     <ul className='link-items'>
                         <li><a href='#intro' >Home</a></li>
-                        <li><a>Services</a></li>
+                        {/* <li><a>Services</a></li> */}
                         <li><a>Skills</a></li>
                         <li><a>Experience</a></li>
                     </ul>

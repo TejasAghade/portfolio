@@ -1,42 +1,51 @@
 .intro-container {
     display: flex;
-    height: 70vh;    
+    height: 100vh;   
+    width: 100%; 
     align-items: center;
-    border: 1px solid #36b973;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     overflow: hidden;
-    padding: 0 2rem;
+    padding: 0 4rem;
+
 }
 
-.intro-container .left {
+.intro-container .sections .texts {
     text-transform: uppercase;
     letter-spacing: 6px;
-    margin-bottom: 7rem;
+    width: 100%;
 }
 
-.intro-container .left h1 {
+.intro-container .texts .heading h1 {
     font-size: 4rem;
     font-weight: bold;
 }
 
-.intro-container .left h2 {
+.intro-container .texts .heading .intro span{
+}
+
+.intro-container .texts .heading h2 {
     font-size: 3rem;
 }
 
-.intro-container .right img {
-    mix-blend-mode: luminosity;
-    border: 1px;
-    margin-top: 5rem;
-    margin-left: 0rem;
-    width: 24rem;
-    max-width: 100%;
-    height: auto;
-    -webkit-filter: drop-shadow(1px 1px 0 rgb(252, 70, 70)) drop-shadow(-1px -1px 0 rgb(46, 255, 126));
-    filter: drop-shadow(1px 1px 0 rgb(0, 0, 0)) drop-shadow(-1px -1px 0 black);
-    transition: 1s ease-in-out;
 
+.intro-container .right{
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    width: 50%;
+    height: 100%;
+    right: 0rem;
 }
 
-.intro-container .right img:hover{
+
+.intro-container .right img {
+    position: relative;
+    z-index: 2;
+    width: 62%;
+    left: 12rem;
+    bottom: 0rem;
+    overflow: hidden;
+    filter: grayscale(100%);
     transition: 1s ease-in-out;
-    mix-blend-mode: normal;
+
 }
