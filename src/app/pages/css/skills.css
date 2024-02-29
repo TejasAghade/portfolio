@@ -18,7 +18,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
     
+}
+.skills-container .skills-wrapper .cat-card{
+    border: 0.01rem solid #1c1919;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.skills-container .skills-wrapper .cat-card .skill-card{
+    display: flex;
 }
 
 .skills-container .skills-wrapper .skill{
