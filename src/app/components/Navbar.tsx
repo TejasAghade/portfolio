@@ -11,8 +11,8 @@ export default function Navbar() {
                     <ul className='link-items flex justify-between'>
                         <li><a href='#intro' >Home</a></li>
                         <li><a href='#skills'>Skills</a></li>
-                        <li><a>Experience</a></li>
-                        <li><a>Work</a></li>
+                        <li><a href='#experience'>Experience</a></li>
+                        <li><a href='#projects' >Projects</a></li>
                     </ul>
                 </div>
                 <div className="personal">

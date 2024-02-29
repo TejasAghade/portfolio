@@ -15,51 +15,74 @@ import nextjs from '../../assets/icons/next.png';
 export const skills = [
     
     {
-        icon: react,
-        name: "React Js"
+        skillCategory : "Front End",
+        skills : [
+            {
+                icon: react,
+                name: "React Js"
+            },
+            {
+                icon: nextjs,
+                name: "Next Js",
+            },
+            {
+                icon: flutter,
+                name: "Flutter"
+            },
+            {
+                icon: js,
+                name: "JavaScript"
+            },
+            {
+                icon: htmlcss,
+                name: "Html & Css"
+            },
+        ]
     },
     {
-        icon: nextjs,
-        name: "Next Js",
+        skillCategory : "Back End",
+        skills :[
+            {
+                icon: go,
+                name: "Golang"
+            },
+            {
+                icon: nodejs,
+                name: "NodeJs"
+            },
+            {
+                icon: express,
+                name: "Express"
+            }
+        ]
     },
+    
     {
-        icon: flutter,
-        name: "Flutter"
+        skillCategory : "Database",
+        skills :[
+            {
+                icon: mongo,
+                name: "MongoDB"
+            },
+            {
+                icon: postg,
+                name: "PostgreSQL"
+            },
+            {
+                icon: sql,
+                name: "MySQL"
+            }
+        ]
     },
+
     {
-        icon: go,
-        name: "Golang"
+        skillCategory : "Core Languages",
+        skills :[
+            {
+                icon: java,
+                name: "Java"
+            },
+        ]
     },
-    {
-        icon: js,
-        name: "JavaScript"
-    },
-    {
-        icon: nodejs,
-        name: "NodeJs"
-    },
-    {
-        icon: express,
-        name: "Express"
-    },
-    {
-        icon: java,
-        name: "Java"
-    },
-    {
-        icon: htmlcss,
-        name: "HTML & CSS"
-    },
-    {
-        icon: mongo,
-        name: "MongoDB"
-    },
-    {
-        icon: postg,
-        name: "PostgreSQL"
-    },
-    {
-        icon: sql,
-        name: "MySQL"
-    }
+    
 ]

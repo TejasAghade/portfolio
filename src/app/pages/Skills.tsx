@@ -1,12 +1,12 @@
 import './css/skills.css';
 
-import { skills } from './../data/skills2.data'
+import { skills } from '../data/skills.data'
 
 export default function Skills() {
     return (
         <>
             <div className="skills-section" id='skills'>
-                <div className="heading" id="skills">
+                <div className="heading">
                     <h2>Skills</h2>
                 </div>
                 <div className="skills-container flex flex-row flex-wrap justify-center">
