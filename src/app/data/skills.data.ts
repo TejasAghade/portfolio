@@ -13,6 +13,7 @@ import nextjs from '../../assets/icons/next.png';
 
 import docker from '../../assets/icons/docker2.png';
 import git from '../../assets/icons/git.png';
+import ts from '../../assets/icons/ts.png';
 
 
 const skills = [
@@ -79,8 +80,12 @@ const skills = [
     },
 
     {
-        skillCategory : "Core Languages",
+        skillCategory : "Languages",
         skills :[
+            {
+                icon: ts,
+                name: "TypeScript"
+            }, 
             {
                 icon: java,
                 name: "Java"

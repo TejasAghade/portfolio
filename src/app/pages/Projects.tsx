@@ -8,7 +8,7 @@ export default function Projects() {
             <div className="heading" id="">
                 <h2>Projects</h2>
             </div>
-            <div className="projects-container flex flex-row flex-wrap justify-between">
+            <div className="projects-container flex flex-row flex-wrap justify-center">
                 {
                     projects.map((project)=>{
                         return (

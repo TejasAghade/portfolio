@@ -24,12 +24,13 @@
 
 .navbar .navlinks ul li{
     height: 2.5rem;
-    transition: 0.2s ease-in-out;
+    transition: 1s;
+    padding-bottom: 10px;
 }
 
-.navbar .navlinks ul li:hover{
-    transition: 0.2s ease-in-out;
-    border-bottom: 2px solid rgb(79, 205, 152);
+.navbar .navlinks ul li a:hover{
+    transition: 2s;
+    border-bottom: 1px solid rgba(255, 227, 126, 0.804);
 }
 
 .navbar .personal{
