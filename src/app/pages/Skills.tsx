@@ -7,7 +7,7 @@ export default function Skills() {
         <>
             <div className="skills-section" id='skills'>
                 <div className="heading">
-                    <h2>Skills</h2>
+                    <h2>What i know</h2>
                 </div>
                 <div className="skills-container flex flex-row flex-wrap justify-center">
                         {
