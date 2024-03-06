@@ -5,7 +5,6 @@ export default function Navbar() {
         <>
             <nav className="navbar flex justify-between items-center">
                 <div className="icon flex flex-row items-center">
-                    {/* <div className="image mr-4"></div> */}
                     <h2>Tejas Aghade</h2>
                 </div>
                 <div className="navlinks">

@@ -4,7 +4,7 @@ import './css/projects.css';
 export default function Projects() {
     return (
         <>
-            <div className="projects-section" id='projects'>
+            <section className="projects-section" id='projects'>
                 <div className="heading" id="">
                     <h2>Projects</h2>
                 </div>
@@ -43,7 +43,7 @@ export default function Projects() {
                         })
                     }
                 </div>
-            </div>
+            </section>
         </>
     )
 }

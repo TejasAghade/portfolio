@@ -2,6 +2,7 @@
   margin-top: 6rem;
   padding: 0 4rem;
   height: 80vh;
+  min-height: 43rem;
   letter-spacing: 1px;
 }
 
@@ -43,7 +44,6 @@
 .projects-section .project-card .right .title p {
   font-size: 1.3rem;
   font-weight: 600;
-  /* color: #111; */
 }
 
 .projects-section .project-card .right .desc {
@@ -58,7 +58,7 @@
 }
 
 
-
+/* hover */
 
 .projects-section .project-card .right .links{
   position: relative;
@@ -76,8 +76,8 @@
 
 .projects-section .project-card .right:hover .links{
   display: flex;
-  justify-content: end;
-  align-items: end;
+  /* justify-content: end; */
+  /* align-items: end; */
   transition: 0.7s;
   transform: translateY(0rem);
 }
@@ -86,5 +86,62 @@
   transition: 0.7s;
   --tw-text-opacity: 1;
     color: rgb(252 211 77 / var(--tw-text-opacity));
+
+}
+
+@media (min-width: 1281px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .projects-section .heading h2 {
+    font-size: 2rem;
+  }
+
+  .projects-section .project-card {
+    height: 10rem;
+    width: 25rem;
+
+  }
+
+  .projects-section .project-card .right {
+    height: 100%;
+    width: 17rem;
+  }
+
+  .projects-section .project-card .left img {
+    width: 8rem;
+    height: 7rem;
+  }
+
+  .projects-section .project-card .right .title p {
+    font-size: 1rem;
+  }
+
+  .projects-section .project-card .right .title{
+    margin-bottom: 0.5rem!important;
+  }
+
+  .projects-section .project-card .right .desc {
+    max-height: 3rem;
+    font-size: 14px;
+  }
+
+  .projects-section .project-card .right .skills {
+    font-size: 12.3px;
+  }
+
 
 }

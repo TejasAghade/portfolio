@@ -9,7 +9,8 @@ import github from './../../assets/icons/github.png';
 export default function Introduction() {
   return (
     <>
-      <div id='intro' className='intro-section'>
+     <section className='intro-se-wrapper'>
+     <div id='intro' className='intro-section'>
         <div className="sections intro-container flex flex-row items-center justify-between">
           <div className="left texts">
             <div className="heading">
@@ -40,16 +41,17 @@ export default function Introduction() {
               </div>
             </div>
           </div>
-          <div className="right">
+          {/* <div className="right">
             <div className="img-wrapper">
               <div className="img">
-                {/* <img className='w-48' src="./../../src/assets/tejas7.png" alt="" /> */}
+                <img className='w-48' src="./../../src/assets/tejas7.png" alt="" />
               </div>
               <div className="photo-background"></div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
+     </section>
 
     </>
   )

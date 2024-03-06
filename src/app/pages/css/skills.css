@@ -1,42 +1,88 @@
-.skills-section{
-    margin-top: 6rem;   
-    padding: 0 4rem;
-    height: 80vh;
+.skills-section {
+  margin-top: 6rem;
+  padding: 0 4rem;
+  /* height: 80vh;
+  min-height: 43rem; */
 }
 
-.skills-section .heading{
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 2.5rem; 
-    letter-spacing: 4px;
+.skills-section .heading {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.5rem;
+  letter-spacing: 4px;
 }
 
-.skills-container{
+.skills-container {
+  margin-top: 2rem;
+}
+
+.skills-section .cat-card {
+  border: 0.01rem solid #1c1919;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+}
+
+.skills-section .skill {
+  height: 7rem;
+  width: 7rem;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: rgb(39 39 39 / 41%);
+}
+
+.skills-section .skill img {
+  width: 3rem;
+  height: 2rem;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.skills-section .skill .skill-title span {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+
+@media (min-width: 1281px) {
+  
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .skills-section .heading {
+    font-size: 2rem;
+  }
+  /* .skills-container {
     margin-top: 2rem;
-}
+  } */
 
-.skills-section .cat-card{
-    border: 0.01rem solid #1c1919;
-    padding: 0.5rem 0.8rem;
-    border-radius: 5px;
-}
+  .skills-section{
+    padding: 0 2rem;
+  }
 
-.skills-section .skill{
-    height: 7rem;
-    width: 7rem;
-    margin: 10px;
-    border-radius: 4px;
-    background-color: rgb(39 39 39 / 41%);
-}
+  .skills-section .skill {
+    height: 6rem;
+    width: 6rem;
+  }
 
-.skills-section .skill img{
-    width: 3rem;
-    height: 2rem;
-    object-fit: contain;
-    margin-bottom: 1rem;
-}
+  .skills-section .skill img {
+    width: 2.5rem;
+    height: 1.5rem;
+  }
 
-.skills-section .skill .skill-title span{
-    font-weight: 300;
-    letter-spacing: 1px;
+  .skills-section .skill .skill-title span {
+    font-size: 14px;
+  }
 }

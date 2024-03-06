@@ -5,7 +5,7 @@ import skills from '../data/skills.data'
 export default function Skills() {
     return (
         <>
-            <div className="skills-section" id='skills'>
+            <section className="skills-section" id='skills'>
                 <div className="heading">
                     <h2>What i know</h2>
                 </div>
@@ -43,7 +43,7 @@ export default function Skills() {
 
                         }
                 </div>
-            </div>
+            </section>
         </>
     )
 }
