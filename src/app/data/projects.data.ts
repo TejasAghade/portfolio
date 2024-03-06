@@ -32,7 +32,7 @@ const projects = [
         desc:"Online food ordering website",
         demoUrl : "",
         imgUrl : notFound,
-        skills : ["Html Css", "Javascript", "JQuery", "MySQL", "Bootstrap", "PHP"]
+        skills : ["Html Css", "Javascript", "MySQL", "Bootstrap", "PHP"]
     }
 ]
 

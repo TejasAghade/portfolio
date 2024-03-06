@@ -1,4 +1,4 @@
-.intro-container {
+.intro-section {
     display: flex;
     height: 100vh;   
     width: 100%; 
@@ -9,40 +9,58 @@
 
 }
 
-.intro-container .sections .texts {
+.intro-section .intro-container{
+    width: 100%;
+}
+
+.intro-section .sections .texts {
     text-transform: uppercase;
     letter-spacing: 6px;
     width: 100%;
 }
 
-.intro-container .texts .heading h1 {
+.intro-section .left{
+    width: 70%;
+}
+
+.intro-section .texts .heading h1 {
     font-size: 4rem;
     font-weight: bold;
 }
 
-.intro-container .texts .heading h2 {
+.intro-section .texts .heading h2 {
     font-size: 3rem;
 }
 
-
-.intro-container .right{
-    position: absolute;
-    overflow: hidden;
-    z-index: -1;
-    width: 50%;
-    height: 100%;
-    right: 0rem;
+.intro-section .left .socials{
+    width: 100%;
 }
 
 
-.intro-container .right img {
-    position: relative;
-    z-index: 2;
-    width: 62%;
-    left: 12rem;
-    bottom: 0rem;
+.intro-section .left .socials img{
+    width: 1.3rem;
+    object-fit: contain;
+    transition: 1s;
+}
+
+.intro-section .left .socials .png:hover img{
+    transform: translateY(-8px);
+    transition: 0.7s;
+}
+
+.intro-section .right .img-wrapper .img{
+    /* border: 2px solid; */
+    border-radius: 50%;
+    height: 18rem;
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
+} 
+
+.intro-section .right .img-wrapper img {
     filter: grayscale(100%);
-    transition: 1s ease-in-out;
+    object-fit: cover;
 
 }
