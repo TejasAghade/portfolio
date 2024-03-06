@@ -1,5 +1,7 @@
 import './css/navbar.css'
 
+import burger from '../../assets/icons/hamburger.png';
+
 export default function Navbar() {
     return (
         <>
@@ -17,6 +19,11 @@ export default function Navbar() {
                 </div>
                 <div className="personal">
                     <button className='button'>Contact</button>
+                </div>
+                <div className="hamburger">
+                    <div className="burger">
+                        <img src={burger} alt="icon" />
+                    </div>
                 </div>
             </nav>
         </>
