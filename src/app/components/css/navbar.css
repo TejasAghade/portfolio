@@ -76,9 +76,43 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .navbar .hamburger{
+        display: block;
+    }
+
+    .navbar .hamburger img{
+        display: block;
+        filter: invert(1);
+        width: 1.4rem;
+    }
+
+    .navlinks{
+        display: none;
+    }
+    .personal{
+        display: none;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+
+    .navbar .hamburger{
+        display: block;
+    }
+
+    .navbar .hamburger img{
+        display: block;
+        filter: invert(1);
+        width: 1.4rem;
+    }
+
+    .navlinks{
+        display: none;
+    }
+    .personal{
+        display: none;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px){
