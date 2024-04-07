@@ -19,7 +19,7 @@
 
 .projects-section .project-card {
   height: 10rem;
-  width: 25rem;
+  width: 23rem;
   margin: 10px;
   border-radius: 4px;
   background-color: #27272769;
@@ -91,27 +91,27 @@
 
 }
 
-.projects-section .animate .drawer{
+/* .projects-section .animate .drawer{
   background-color: red;
-  width: 25rem;
+  width: 23rem;
   height: 10rem;
   border-radius: 4px;
   position: absolute;
   z-index: -99;
   visibility: hidden;
-}
+} */
 
-.projects-section .animate:hover .project-card{
+/* .projects-section .animate:hover .project-card{
     transition: 0.7s;
     transform: scale(1.02);
     visibility: visible;
     box-shadow: rgba(123, 123, 132, 0.238) 0px 0px 29px 0px;
-}
+} */
 
-.projects-section .animate:hover .project-card img{
+/* .projects-section .animate:hover .project-card img{
   transition: 1s;
   transform: rotate(-4deg);
-}
+} */
 
 @media (min-width: 1281px) {
 }

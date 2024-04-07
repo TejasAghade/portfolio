@@ -43,10 +43,10 @@
     transition: 1s;
 }
 
-.intro-section .left .socials .png:hover img{
+/* .intro-section .left .socials .png:hover img{
     transform: translateY(-8px);
     transition: 0.7s;
-}
+} */
 
 .intro-section .right .img-wrapper .img{
     border-radius: 50%;

@@ -29,3 +29,13 @@ body {
   box-sizing: border-box;
   padding-top: 4rem;
 }
+
+.cursor{
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}

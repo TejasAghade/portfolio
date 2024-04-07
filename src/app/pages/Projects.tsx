@@ -1,3 +1,4 @@
+import { FollowerPointerCard } from '../components/ui/following-pointer';
 import projects from '../data/projects.data';
 import './css/projects.css';
 
@@ -10,39 +11,40 @@ export default function Projects() {
                 </div>
                 <div className="projects-container flex flex-row flex-wrap justify-center">
                     {
-                        projects.map((project) => {
+                        projects.map((project, i) => {
                             return (
-                                <a href={project.codeUrl} target='_blank' className="animate flex flex-col justify-center items-center">
-                                    <div key={project.name} className="project-card flex flex-row justify-center items-center">
-                                        <div className="left p-2 flex flex-col justify-center">
-                                            <img src={project.imgUrl} alt="" />
-                                        </div>
-                                        <div className="right p-3 flex flex-col justify-between">
-                                            <div className='for-card'>
-                                                <div className="title mb-3">
-                                                    <p>{project.name}</p>
+                                <a href={project.codeUrl} key={i}>
+                                    <FollowerPointerCard 
+                                        title={
+                                            <TitleComponent 
+                                            title={project.name}
+                                            avatar={project.imgUrl}
+                                            />
+                                        } 
+                                        className="animate flex flex-col justify-center items-center">
+                                        <div key={project.name} className="project-card flex flex-row justify-center items-center">
+                                            <div className="left p-2 flex flex-col justify-center">
+                                                <img src={project.imgUrl} alt="" />
+                                            </div>
+                                            <div className="right p-3 flex flex-col justify-between">
+                                                <div className='for-card'>
+                                                    <div className="title mb-3">
+                                                        <p>{project.name}</p>
                                                     </div>
                                                     <div className="info">
                                                         <div className="desc">
                                                             <span>{project.desc}</span>
                                                         </div>
                                                         <div className="skills mt-1">
-                                                        { 
-                                                            project.skills.map((skill)=><span key={skill} >{skill} </span>) 
-                                                        }
+                                                            { 
+                                                                project.skills.map((skill)=><span key={skill} >{skill} </span>) 
+                                                            }
                                                         </div>
                                                     </div>
+                                                </div>
                                             </div>
-
-                                            <div className="links flex flex-row items-end justify-end">
-                                                <a href={project.codeUrl} target='_blank'><span className="link text-sm text-amber-300">code /&gt;</span></a>
-                                            </div>
-
                                         </div>
-                                    </div>
-                                    <div className="drawer">
-                                        <h1>Hello</h1>
-                                    </div>
+                                    </FollowerPointerCard>
                                 </a>
                             )
                         })
@@ -52,3 +54,23 @@ export default function Projects() {
         </>
     )
 }
+
+
+
+const TitleComponent = ({
+  title,
+  avatar,
+}: {
+  title: string;
+  avatar: string;
+}) => (
+  <div className="flex space-x-2 h-6 items-center">
+    <img
+      src={avatar}
+      alt="thumbnail"
+      className="rounded-full w-5 h-5 border-2 border-white object-contain"
+    />
+    <p className="ml-24" style={{ textTransform: "capitalize", letterSpacing: "1px" }}>github/{title}</p>
+  </div>
+);
+  
