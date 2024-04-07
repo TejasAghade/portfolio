@@ -1,8 +1,6 @@
 import { exp } from '../data/exp.data';
 import './css/exp.css';
 
-import code from '../../assets/code.svg';
-
 export default function Experience() {
     return (
         <>
