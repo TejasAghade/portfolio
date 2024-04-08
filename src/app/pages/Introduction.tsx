@@ -51,7 +51,7 @@ export default function Introduction() {
               <h1 className='position'>Full-Stack Developer</h1>
             </div>
             <div className="desc">
-              <p className='exp'>1.6+ years of professional experience in</p>
+              <p className='exp'>2 years of professional experience in</p>
               <p>Web and Mobile app development</p>
             </div>
             <div className="socials ml-4 mt-5">
@@ -81,7 +81,7 @@ export default function Introduction() {
           {/* <div className="right">
             <div className="img-wrapper">
               <div className="img">
-                <img className='w-48' src="./../../src/assets/tejas7.png" alt="" />
+                <img className='w-full' src="./../../src/assets/coder.png" alt="" />
               </div>
               <div className="photo-background"></div>
             </div>

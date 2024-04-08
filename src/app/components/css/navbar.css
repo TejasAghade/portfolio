@@ -39,6 +39,7 @@
     align-items: center;
     transition: border-bottom 0.6s ease;
     border-bottom: 1px solid transparent;
+    
 }
 
 .navbar .navlinks ul li:hover{

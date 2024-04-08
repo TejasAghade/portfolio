@@ -12,8 +12,8 @@ export default function Experience() {
                     <div className="exp-container flex flex-col flex-wrap justify-center gap-5">
                         {
                             exp.map((exp, i)=>(
-                                <div className='h-30 flex flex-col ml-5' key={i}>
-                                    <div className='exp-card p-4'>
+                                <div className='h-30 flex flex-col ml-5 exp-card' key={i}>
+                                    <div className='exp-card-wrapper p-4'>
                                         <div className="position">
                                             <h2 className='text-lg font-bold'>{exp.position}</h2>
                                         </div>
@@ -24,9 +24,6 @@ export default function Experience() {
                                         <div className="org">
                                             <span className='text-sm italic'>- {exp.desc}</span>
                                         </div>
-                                        {/* <div className="skill-set">
-                                            <span className='text-sm'>{exp.skillSet}</span>
-                                        </div> */}
                                     </div>
                                     <div className="line pl-4">
                                         <div className="w-12 bg-white"></div>
@@ -36,9 +33,11 @@ export default function Experience() {
                         }
                     </div>
                     
-                    {/* <div className="right-img">
-                        <img className='w-32 inverse' src={code} alt="" />
-                    </div> */}
+                    <div className="img-wrapper  flex justify-center items-center hidden lg:block">
+                        <div className="img">
+                            <img className='w-full' src="./../../src/assets/Programming.svg" alt="" />
+                        </div>
+                    </div>
                 </div>
             </section>
         </>

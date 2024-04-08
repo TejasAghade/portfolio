@@ -1,8 +1,7 @@
 .projects-section {
   margin-top: 6rem;
   padding: 0 4rem;
-  height: 80vh;
-  min-height: 43rem;
+  /* min-height: 43rem; */
   letter-spacing: 1px;
 }
 

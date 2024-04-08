@@ -49,9 +49,9 @@
 } */
 
 .intro-section .right .img-wrapper .img{
-    border-radius: 50%;
-    height: 18rem;
-    width: 18rem;
+    /* border-radius: 50%; */
+    /* height: 18rem; */
+    width: 24rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,12 +59,13 @@
 } 
 
 .intro-section .right .img-wrapper img {
-    filter: grayscale(100%);
     object-fit: cover;
-
+    background: rgba(117, 117, 117, 0.08);
+    border-radius: 2px;
+    box-shadow: 0 4px 30px rgba(22, 40, 31, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
-
-
 
 @media (min-width: 1281px) {
 }
