@@ -16,6 +16,10 @@
   .exp-section .exp-container {
     margin-top: 2rem;
   }
+
+  .line div{
+    height: 1px;
+  }
   
   @media (min-width: 1281px) {
   }

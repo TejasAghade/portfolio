@@ -51,26 +51,28 @@ export default function Introduction() {
               <h1 className='position'>Full-Stack Developer</h1>
             </div>
             <div className="desc">
-              <p className='exp'>1.6+ years of experience in</p>
+              <p className='exp'>1.6+ years of professional experience in</p>
               <p>Web and Mobile app development</p>
             </div>
-            <div className="socials ml-4 mt-10">
-              <div className="icons w-48 flex flex-row justify-between relative z-50">
+            <div className="socials ml-4 mt-5">
+              <div className="icons w-64 flex flex-row justify-between relative z-50">
                 
                 {
                   socialMedia.map((s, i)=>(
-                    <FollowerPointerCard key={i}
-                      title={
-                        <TitleComponent 
-                          title={s.text}
-                          avatar={t}
-                        />
-                      } className="png">
+                    <a href={s.link} key={i} target='_blank'>
+                      <FollowerPointerCard 
+                        title={
+                          <TitleComponent 
+                            title={s.text}
+                            avatar={t}
+                          />
+                        } className="png">
 
-                      <div className="png">
-                        <a href={s.link} className='inverse' target='_blank'><img src={s.img} alt="github" /></a>
-                      </div>
-                    </FollowerPointerCard>
+                        <div  className="png inverse h-7 w-7 flex justify-center items-center">
+                            <img src={s.img} alt="github" />
+                        </div>
+                      </FollowerPointerCard>
+                    </a>
                   ))
                 }
               </div>

@@ -12,13 +12,14 @@ export default function Experience() {
                     <div className="exp-container flex flex-col flex-wrap justify-center gap-5">
                         {
                             exp.map((exp, i)=>(
-                                <div className='h-30' key={i}>
-                                    <div className='exp-card p-4 ml-5'>
+                                <div className='h-30 flex flex-col ml-5' key={i}>
+                                    <div className='exp-card p-4'>
                                         <div className="position">
                                             <h2 className='text-lg font-bold'>{exp.position}</h2>
                                         </div>
                                         <div className="org">
-                                            <span className='text-sm'>{exp.org}</span> | <span className="location text-sm">{exp.location}</span>
+                                            <span className='text-sm'>{exp.org}</span> | 
+                                            <span className="location text-sm">{exp.location}</span>
                                         </div>
                                         <div className="org">
                                             <span className='text-sm italic'>- {exp.desc}</span>
@@ -26,6 +27,9 @@ export default function Experience() {
                                         {/* <div className="skill-set">
                                             <span className='text-sm'>{exp.skillSet}</span>
                                         </div> */}
+                                    </div>
+                                    <div className="line pl-4">
+                                        <div className="w-12 bg-white"></div>
                                     </div>
                                 </div>
                             ))

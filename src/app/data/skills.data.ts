@@ -15,6 +15,8 @@ import docker from '../../assets/icons/docker2.png';
 import git from '../../assets/icons/git.png';
 import ts from '../../assets/icons/ts.png';
 
+import nginx from '../../assets/icons/nginx.svg';
+
 
 const skills = [
     
@@ -57,6 +59,10 @@ const skills = [
             {
                 icon: express,
                 name: "Express"
+            },
+            {
+                icon: nginx,
+                name: "Nginx"
             }
         ]
     },
