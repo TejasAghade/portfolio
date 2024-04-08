@@ -1,6 +1,8 @@
 import { exp } from '../data/exp.data';
 import './css/exp.css';
 
+import p from './../../assets/Programming.svg';
+
 export default function Experience() {
     return (
         <>
@@ -35,7 +37,7 @@ export default function Experience() {
                     
                     <div className="img-wrapper  flex justify-center items-center hidden lg:block">
                         <div className="img">
-                            <img className='w-full' src="./../../src/assets/Programming.svg" alt="" />
+                            <img className='w-full' src={p} alt="" />
                         </div>
                     </div>
                 </div>
