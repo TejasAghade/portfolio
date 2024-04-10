@@ -39,10 +39,7 @@ const skills = [
                 icon: js,
                 name: "JavaScript"
             },
-            {
-                icon: htmlcss,
-                name: "Html & Css"
-            },
+           
         ]
     },
     {
@@ -86,7 +83,7 @@ const skills = [
     },
 
     {
-        skillCategory : "Languages",
+        skillCategory : "Languages & other",
         skills :[
             {
                 icon: ts,
@@ -95,6 +92,10 @@ const skills = [
             {
                 icon: java,
                 name: "Java"
+            },
+            {
+                icon: htmlcss,
+                name: "Html & Css"
             },
         ]
     },

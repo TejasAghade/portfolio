@@ -7,48 +7,22 @@ import Skills from './app/pages/Skills'
 
 function App() {
 
-  // const [mousePosition, setMousePosition] = useState({
-  //   x:0,
-  //   y:0
-  // });
-
-  // useEffect(()=>{
-  //   const mouseMove = (e:MouseEvent)=>{
-  //     setMousePosition({
-  //       x : e.clientX,
-  //       y : e.clientY
-  //     })
-  //   }
-  //   window.addEventListener("mousemove", mouseMove);
-
-  //   return ()=>{
-  //     window.removeEventListener("mousemove", mouseMove);
-  //   }
-  // });
-
-  // const variants = {
-  //   default : {
-  //     x : mousePosition.x-8,
-  //     y : mousePosition.y-8 
-  //   }
-  // }
-
   return (
     <>
-      <Navbar />
-      <Introduction />
-      <Skills/>
-      <Projects />
-      <Experience/>
-      {/* <motion.div 
-        variants={variants}  
-        animate="default"
-        transition={{delay:-0.2}}
-        className="cursor"
-      >
+     
+      <div className="root-wr">
+        <div className="nav-wr w-16 flex justify-center fixed left-0 h-full">
+          <Navbar />
+        </div>
+        <div className="app-wr ml-8 flex flex-col">
+          <Introduction />
+          <Skills/>
+          <Projects />
+          <Experience/>
+        </div>
+        
 
-      </motion.div> */}
-
+      </div>
 
     </>
   )

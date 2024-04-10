@@ -36,7 +36,7 @@ export default function Introduction() {
     {
       text:"Tejas",
       img:twitter,
-      link:"https://www.instagram.com/tejasaghade/",
+      link:"https://twitter.com/tejasaghade",
     },
   ]
 

@@ -10,11 +10,11 @@ export default function Experience() {
                 <div className="heading" id="">
                     <h2>Experience</h2>
                 </div>
-                <div className="flex flex-row justify-between xl:px-10">
+                <div className="flex flex-row justify-between items-center xl:px-10">
                     <div className="exp-container flex flex-col flex-wrap justify-center gap-5">
                         {
                             exp.map((exp, i)=>(
-                                <div className='h-30 flex flex-col ml-5 exp-card' key={i}>
+                                <div className='h-30 flex flex-col ml-5 pb-4 pl-1 exp-card' key={i}>
                                     <div className='exp-card-wrapper p-4'>
                                         <div className="position">
                                             <h2 className='text-lg font-bold'>{exp.position}</h2>
