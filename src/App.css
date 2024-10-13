@@ -11,3 +11,12 @@
     top: 0;
     bottom: 0;
 }
+
+.intro-screen{
+    position: absolute;
+    z-index: 9999999999;
+    height: 300vh;
+    width: 300%;
+    background-color: white;
+    top: 0;
+}
