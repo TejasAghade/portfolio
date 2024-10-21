@@ -52,7 +52,7 @@ export default function Introduction() {
             </div>
             <div className="desc">
               <p className='exp'>2 years of professional experience in</p>
-              <p>Web and Mobile app development</p>
+              <p>full stack development</p>
             </div>
             <div className="socials ml-4 mt-5">
               <div className="icons w-64 flex flex-row justify-between relative z-50">
