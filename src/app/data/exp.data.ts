@@ -1,10 +1,10 @@
 export const exp = [
     {
-        position : "Flutter Developer",
+        position : "Software Engineer",
         org:"Fitway",
         location:"Balewadi, Pune",
-        desc: "Cross-platform Mobile app developer",
-        skillSet:"Flutter, NodeJs"
+        desc: "Application Developer",
+        skillSet:"React, NodeJs"
     },
     {
         position : "JavaScript Developer",
