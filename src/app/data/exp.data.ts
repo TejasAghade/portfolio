@@ -1,5 +1,12 @@
 export const exp = [
     {
+        position : "Member of Technical Staff",
+        org:"CCTech",
+        location:"Wakad, Pune",
+        desc: "FullStack Developer",
+        skillSet:"React, NodeJs, Python"
+    },
+    {
         position : "Software Engineer",
         org:"Fitway",
         location:"Balewadi, Pune",
